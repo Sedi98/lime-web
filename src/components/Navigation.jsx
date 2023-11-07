@@ -30,6 +30,14 @@ export default function ({}) {
   
    
   }, [value])
+
+  useEffect(() => {
+    
+    setValue(JSON.parse(localStorage.getItem('i18nextLng')))
+   
+  
+   
+  }, [])
   
 
   const { t, i18n } = useTranslation();
