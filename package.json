@@ -2,7 +2,7 @@
   "name": "lime-store",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://lime-web.github.io/lime-web",
+  "homepage": "https://lime-web.github.io/lime-web",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
