@@ -26,14 +26,14 @@ export default function ({}) {
 
   useEffect(() => {
     i18n.changeLanguage(value)
-    console.log(value)
+    
   
    
   }, [value])
 
   useEffect(() => {
     
-    setValue(JSON.parse(localStorage.getItem('i18nextLng')))
+    setValue(localStorage.getItem('i18nextLng'))
    
   
    
