@@ -72,6 +72,7 @@ export default function ({}) {
             defaultValue={value}
             className="nav-lang-select"
           >
+            <option selected >Dil</option>
             <option value="az">AZ</option>
             <option value="tr">TR</option>
             <option value="ru">RU</option>
