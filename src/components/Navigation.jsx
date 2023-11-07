@@ -37,7 +37,7 @@ export default function ({}) {
   return (
     <>
       <nav className="navigation">
-        <Link className="brand-logo" to="/">
+        <Link className="brand-logo" to="/lime-web/">
           {t("nav-link-brand")}
           
         </Link>
