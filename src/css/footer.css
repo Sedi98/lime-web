@@ -1,0 +1,32 @@
+footer{
+    background-color: black;
+    color: #fff;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.footer-container{
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.footer-container p{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.creator-text-division{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}

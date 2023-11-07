@@ -1,0 +1,96 @@
+.container-welcome {
+  width: 100%;
+  background-image: url(../media/background/welcomePhoto.png);
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.container-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-header {
+  width: 60%;
+  text-align: center;
+  font-size: 56px;
+  color: #424949;
+  
+ 
+}
+
+.welcome-text {
+  text-align: center;
+  width: 70%;
+  font-size: 20px;
+}
+
+.welcome-buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.welcome-buttons {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: 0px solid black;
+  border-radius: 7px;
+  width: 200px;
+  text-align: center;
+  transition: 0.5s;
+  margin: 20px;
+}
+
+.welcome-buttons:nth-child(odd) {
+  background-color: #1680FB;
+}
+
+.welcome-buttons:nth-child(odd):hover {
+  background-color: #1065c7;
+}
+
+.welcome-buttons:nth-child(even) {
+  background-color: #fff;
+  color: #424949;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.welcome-buttons:nth-child(even):hover {
+  background-color: #1065c7;
+  border: 1px solid #1065c7;
+  color: #fff;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .welcome-header{
+    width: 90%;
+  }
+  
+  .welcome-buttons-div {
+    flex-direction: column;
+  }
+
+
+  .welcome-buttons {
+    width: 90%;
+  }
+
+}
+

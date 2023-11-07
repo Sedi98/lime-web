@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+button{
+    width: 40%;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #1680FB;
+    border: 0px solid black;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.about-container-two{
+    min-height: 100vh;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    button{
+        width: 100%;
+    }
+}

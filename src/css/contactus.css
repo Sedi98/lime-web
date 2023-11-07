@@ -1,0 +1,86 @@
+.div-contact{
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+
+}
+
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+.inputLabel{
+    font-size: 24px;
+    font-weight: bold;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.input{
+    min-height: 50px;
+    width: 100%;
+    background-color: #f5f6f8;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 0;
+    color: #3a4a56;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    outline: none;
+}
+textarea{
+    padding: 10px 20px;
+    resize: none;
+    outline: none;
+    max-height: 300px;
+}
+
+
+.headerText{
+    font-size: 48px!important;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input[type="button"]{
+    width: 40%;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #1680FB;
+    border: 0px solid black;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+input[type="button"]:hover{
+    background-color: #1065c7;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    input[type="button"]{
+        width: 90%;
+    }
+
+    .container-contact{
+        width: 100%;
+    
+    }
+}
