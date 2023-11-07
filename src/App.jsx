@@ -25,9 +25,9 @@ function App() {
       <Navigation/>
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/lime-web/" element={<Home />} />
         <Route
-          path="/tarrifs"
+          path="/lime-web/tarrifs"
           element={
             <Tarrifs
              
@@ -35,7 +35,7 @@ function App() {
           }
         />
         <Route
-          path="/contactUs"
+          path="/lime-web/contactUs"
           element={
             <ContactUs
              
@@ -43,14 +43,14 @@ function App() {
           }
         />
         <Route
-          path="/services"
+          path="/lime-web/services"
           element={
             <AboutSectionThree
              
             />
           }
         />
-        <Route path="/" />
+        <Route path="/lime-web" />
       </Routes>
 
       <Footer

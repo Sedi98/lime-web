@@ -44,19 +44,19 @@ export default function ({}) {
         <FaBars className="hidden-menu" onClick={changeStyle} />
         <div className={style}>
         <FaTimes className="hidden-close" onClick={changeStyle} />
-          <Link className="link-a" to="/">
+          <Link className="link-a" to="/lime-web/">
             {t("nav-link-main")}
           </Link>
-          <Link className="link-a" to="/">
+          <Link className="link-a" to="/lime-web/">
             {t("nav-link-about")}
           </Link>
-          <Link className="link-a" to="/services">
+          <Link className="link-a" to="/lime-web/services">
             {t("nav-link-services")}
           </Link>
-          <Link className="link-a" to="/tarrifs">
+          <Link className="link-a" to="/lime-web/tarrifs">
             {t("nav-link-tarrifs")}
           </Link>
-          <Link className="link-a" to="/contactUs">
+          <Link className="link-a" to="/lime-web/contactUs">
             {t("nav-link-contact")}
           </Link>
           <select
